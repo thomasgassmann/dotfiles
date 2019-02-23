@@ -1,0 +1,12 @@
+{
+    "editor.fontFamily": "'Noto Mono', 'Courier New', monospace",
+    "editor.fontSize": 15,
+    "git.enableSmartCommit": true,
+    "breadcrumbs.enabled": true,
+    "window.titleBarStyle": "custom",
+    "python.venvPath": "/home/thomas/.local/share/virtualenvs",
+    "sync.gist": "452791ca65be55dd867152899a57e696",
+    "window.zoomLevel": 0,
+    "editor.detectIndentation": false,
+    "workbench.iconTheme": "material-icon-theme",
+}

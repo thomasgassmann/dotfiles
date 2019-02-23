@@ -6,9 +6,11 @@ install:
 	cp -vu  curl/.curlrc					$(INSTALLDIR)/.curlrc
 	cp -vur bin/*							$(INSTALLDIR)/.local/bin/
 	chmod +x -R $(INSTALLDIR)/.local/bin
+	vscode/install.sh $(INSTALLDIR)
 
 
 backup:
 	cp -vu  $(INSTALLDIR)/.gitconfig		git/.gitconfig
-	cp -vu  $(INSTALLDIR)/.curlrc		curl/.curlrc
-	cp -vur $(INSTALLDIR)/.local/bin		bin
+	cp -vu  $(INSTALLDIR)/.curlrc			curl/.curlrc
+	cp -vur $(INSTALLDIR)/.local/bin/*		bin
+	vscode/backup.sh $(INSTALLDIR)
