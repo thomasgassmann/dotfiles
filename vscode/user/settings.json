@@ -9,4 +9,6 @@
     "window.zoomLevel": 0,
     "editor.detectIndentation": false,
     "workbench.iconTheme": "material-icon-theme",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "terminal.integrated.shell.linux": "/bin/bash"
 }
