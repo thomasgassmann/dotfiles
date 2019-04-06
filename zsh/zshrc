@@ -291,3 +291,4 @@ pipvenv () {
   PIPENV_VENV_IN_PROJECT=1 pipenv "$@"
 }
 
+export PATH=$PATH:/usr/local/go/bin
