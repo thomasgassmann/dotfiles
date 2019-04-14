@@ -7,3 +7,4 @@ echo "$(code --list-extensions)" > $(dirname $0)/extensions
 
 # settings
 cp -vu $1/.config/Code/User/settings.json vscode/user/settings.json
+cp -vu $1/.config/Code/User/keybindings.json vscode/user/keybindings.json

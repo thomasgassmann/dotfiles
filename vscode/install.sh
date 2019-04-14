@@ -17,3 +17,4 @@ done
 
 # config
 cp -vu vscode/user/settings.json $1/.config/Code/User/settings.json
+cp -vu vscode/user/keybindings.json $1/.config/Code/User/keybindings.json
