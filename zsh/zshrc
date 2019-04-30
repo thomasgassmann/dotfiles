@@ -287,8 +287,5 @@ export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64"
 gsettings set org.gnome.shell.app-switcher current-workspace-only true
 export DOTNET_INSTALL_DIR=/usr/share/dotnet
 
-pipvenv () {
-  PIPENV_VENV_IN_PROJECT=1 pipenv "$@"
-}
 
 [[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'
