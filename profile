@@ -22,6 +22,8 @@ fi
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go
 
-pipenv () {
+export PIPENV_VENV_IN_PROJECT=1
+
+pipvenv () {
   PIPENV_VENV_IN_PROJECT=1 pipenv "$@"
 }
