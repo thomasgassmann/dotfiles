@@ -252,3 +252,5 @@ if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
 fi
 
 [[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'
+
+. /usr/share/autojump/autojump.sh
