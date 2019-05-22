@@ -13,5 +13,6 @@
     "terminal.integrated.shell.linux": "/bin/bash",
     "workbench.tree.indent": 24,
     "python.jediEnabled": false,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "workbench.startupEditor": "newUntitledFile"
 }

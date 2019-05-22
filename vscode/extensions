@@ -1,3 +1,4 @@
+ajhyndman.jslint
 Angular.ng-template
 auchenberg.vscode-browser-preview
 dbaeumer.vscode-eslint
@@ -6,8 +7,12 @@ James-Yu.latex-workshop
 kumar-harsh.graphql-for-vscode
 ms-python.python
 ms-vscode.csharp
+ms-vscode.Go
 ms-vscode.vscode-typescript-tslint-plugin
 msjsdiag.debugger-for-chrome
 PKief.material-icon-theme
+redhat.java
 Shan.code-settings-sync
+SimonSiefke.svg-preview
 tomoki1207.pdf
+vscjava.vscode-maven
