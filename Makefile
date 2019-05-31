@@ -9,6 +9,7 @@ install:
 	cp -vu  bash/bashrc						$(INSTALLDIR)/.bashrc
 	cp -vu  zsh/zshrc						$(INSTALLDIR)/.zshrc
 	cp -vu  tmux/tmux.conf					$(INSTALLDIR)/.tmux.conf
+	cp -vu  tmux/tmux.conf.local			$(INSTALLDIR)/.tmux.conf.local
 	chmod +x -R $(INSTALLDIR)/.local/bin
 	vscode/install.sh $(INSTALLDIR)
 
@@ -20,4 +21,5 @@ backup:
 	cp -vu  $(INSTALLDIR)/.bashrc			bash/bashrc
 	cp -vu  $(INSTALLDIR)/.zshrc			zsh/zshrc
 	cp -vu  $(INSTALLDIR)/.tmux.conf		tmux/tmux.conf
+	cp -vu  $(INSTALLDIR)/.tmux.conf.local	tmux/tmux.conf.local
 	vscode/backup.sh $(INSTALLDIR)
