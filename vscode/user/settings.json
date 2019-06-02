@@ -14,5 +14,6 @@
     "workbench.tree.indent": 24,
     "python.jediEnabled": false,
     "editor.formatOnSave": true,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "go.useLanguageServer": true
 }

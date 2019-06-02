@@ -3,6 +3,7 @@ Angular.ng-template
 auchenberg.vscode-browser-preview
 dbaeumer.vscode-eslint
 DrMueller.drmueller-bms
+EditorConfig.EditorConfig
 James-Yu.latex-workshop
 kumar-harsh.graphql-for-vscode
 ms-python.python
@@ -10,7 +11,9 @@ ms-vscode.csharp
 ms-vscode.Go
 ms-vscode.vscode-typescript-tslint-plugin
 msjsdiag.debugger-for-chrome
+PeterJausovec.vscode-docker
 PKief.material-icon-theme
+premparihar.gotestexplorer
 redhat.java
 Shan.code-settings-sync
 SimonSiefke.svg-preview
