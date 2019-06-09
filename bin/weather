@@ -1,3 +1,0 @@
-#!/bin/bash
-
-curl -w "\n" wttr.in/$1

@@ -1,4 +1,0 @@
-#!/bin/bash
-
-rm /var/run/do-not-hibernate
-pm-hibernate

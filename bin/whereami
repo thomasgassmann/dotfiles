@@ -1,3 +1,0 @@
-#!/bin/bash
-
-curl -s -w "\n" ipinfo.io/$(myip)
