@@ -11,24 +11,54 @@ config:
   showdiff: false
   workdir: ~/.config/dotdrop
 dotfiles:
+  f_bash_profile:
+    dst: ~/.bash_profile
+    src: bash_profile
+  f_bashrc:
+    dst: ~/.bashrc
+    src: bashrc
+  f_curlrc:
+    dst: ~/.curlrc
+    src: curlrc
   f_force-hibernate:
     dst: ~/.local/bin/force-hibernate
     src: local/bin/force-hibernate
+  f_gitconfig:
+    dst: ~/.gitconfig
+    src: gitconfig
   f_inttoip:
     dst: ~/.local/bin/inttoip
     src: local/bin/inttoip
   f_iptoint:
     dst: ~/.local/bin/iptoint
     src: local/bin/iptoint
+  f_keybindings.json:
+    dst: ~/.config/Code/User/keybindings.json
+    src: config/Code/User/keybindings.json
   f_myip:
     dst: ~/.local/bin/myip
     src: local/bin/myip
+  f_profile:
+    dst: ~/.profile
+    src: profile
+  f_settings.json:
+    dst: ~/.config/Code/User/settings.json
+    src: config/Code/User/settings.json
+  f_tmux.conf:
+    dst: ~/.tmux.conf
+    src: tmux.conf
+  f_vimrc:
+    dst: ~/.vimrc
+    src: vimrc
   f_weather:
     dst: ~/.local/bin/weather
     src: local/bin/weather
   f_whereami:
     dst: ~/.local/bin/whereami
     src: local/bin/whereami
+  f_zshrc:
+    dst: ~/.zshrc
+    src: zshrc
 profiles:
   tdesktop:
     dotfiles:
@@ -38,3 +68,13 @@ profiles:
     - f_whereami
     - f_iptoint
     - f_inttoip
+    - f_vimrc
+    - f_profile
+    - f_bashrc
+    - f_zshrc
+    - f_keybindings.json
+    - f_settings.json
+    - f_tmux.conf
+    - f_gitconfig
+    - f_curlrc
+    - f_bash_profile

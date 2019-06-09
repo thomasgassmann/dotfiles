@@ -1,0 +1,13 @@
+[credential]
+	helper = cache --timeout=86400
+[user]
+	email = thomas.gassmann@hotmail.com
+	name = Thomas Gassmann
+	signingkey = 0E7C183AED7F189A
+[alias]
+    ll = log --date=short --format=format:'%C(auto)%h%C(reset) %C(cyan)%ad%C(reset) %C(green)(%ar)%C(reset)%C(auto)%d%C(reset) %s - %C(yellow)%an%C(reset)'
+    l = !git ll --all --graph
+[commit]
+	gpgSign = true
+[sequence]
+	editor = vim
