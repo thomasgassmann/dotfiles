@@ -1,0 +1,8 @@
+#! /usr/bin/python3
+
+import socket
+import struct
+import sys
+
+if __name__ == '__main__':
+    print(struct.unpack("!I", socket.inet_aton(sys.argv[1]))[0])

@@ -1,0 +1,40 @@
+config:
+  backup: true
+  banner: true
+  create: true
+  dotpath: dotfiles
+  ignoreempty: false
+  keepdot: false
+  link_dotfile_default: nolink
+  link_on_import: nolink
+  longkey: false
+  showdiff: false
+  workdir: ~/.config/dotdrop
+dotfiles:
+  f_force-hibernate:
+    dst: ~/.local/bin/force-hibernate
+    src: local/bin/force-hibernate
+  f_inttoip:
+    dst: ~/.local/bin/inttoip
+    src: local/bin/inttoip
+  f_iptoint:
+    dst: ~/.local/bin/iptoint
+    src: local/bin/iptoint
+  f_myip:
+    dst: ~/.local/bin/myip
+    src: local/bin/myip
+  f_weather:
+    dst: ~/.local/bin/weather
+    src: local/bin/weather
+  f_whereami:
+    dst: ~/.local/bin/whereami
+    src: local/bin/whereami
+profiles:
+  tdesktop:
+    dotfiles:
+    - f_force-hibernate
+    - f_myip
+    - f_weather
+    - f_whereami
+    - f_iptoint
+    - f_inttoip
