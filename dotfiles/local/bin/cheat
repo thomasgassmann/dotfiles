@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl -w '\n' cheat.sh/$1 | less

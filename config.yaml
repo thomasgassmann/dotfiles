@@ -17,6 +17,9 @@ dotfiles:
   f_bashrc:
     dst: ~/.bashrc
     src: bashrc
+  f_cheat:
+    dst: ~/.local/bin/cheat
+    src: local/bin/cheat
   f_curlrc:
     dst: ~/.curlrc
     src: curlrc
@@ -26,6 +29,9 @@ dotfiles:
   f_gitconfig:
     dst: ~/.gitconfig
     src: gitconfig
+  f_ifconfigc:
+    dst: ~/.local/bin/ifconfigc
+    src: local/bin/ifconfigc
   f_inttoip:
     dst: ~/.local/bin/inttoip
     src: local/bin/inttoip
@@ -41,9 +47,15 @@ dotfiles:
   f_profile:
     dst: ~/.profile
     src: profile
+  f_rr:
+    dst: ~/.local/bin/rr
+    src: local/bin/rr
   f_settings.json:
     dst: ~/.config/Code/User/settings.json
     src: config/Code/User/settings.json
+  f_tinyurl:
+    dst: ~/.local/bin/tinyurl
+    src: local/bin/tinyurl
   f_tmux.conf:
     dst: ~/.tmux.conf
     src: tmux.conf
@@ -78,3 +90,7 @@ profiles:
     - f_gitconfig
     - f_curlrc
     - f_bash_profile
+    - f_ifconfigc
+    - f_tinyurl
+    - f_cheat
+    - f_rr
