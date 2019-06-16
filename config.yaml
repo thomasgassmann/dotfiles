@@ -71,6 +71,9 @@ dotfiles:
   f_zshrc:
     dst: ~/.zshrc
     src: zshrc
+  f_kill_on_port:
+    dst: ~/.local/bin/kill_on_port
+    src: local/bin/kill_on_port
 profiles:
   tdesktop:
     dotfiles:
@@ -94,3 +97,4 @@ profiles:
     - f_tinyurl
     - f_cheat
     - f_rr
+    - f_kill_on_port
