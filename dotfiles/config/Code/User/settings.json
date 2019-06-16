@@ -15,5 +15,6 @@
     "python.jediEnabled": false,
     "editor.formatOnSave": true,
     "workbench.startupEditor": "newUntitledFile",
-    "go.useLanguageServer": true
+    "go.useLanguageServer": true,
+    "workbench.colorTheme": "Chromodynamics"
 }
