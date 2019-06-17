@@ -11,3 +11,5 @@
 	gpgSign = true
 [sequence]
 	editor = vim
+[core]
+	excludesfile = /home/thomas/.gitignore

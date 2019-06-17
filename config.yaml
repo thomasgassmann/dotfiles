@@ -74,6 +74,9 @@ dotfiles:
   f_kill_on_port:
     dst: ~/.local/bin/kill_on_port
     src: local/bin/kill_on_port
+  f_gitignore:
+    src: gitignore
+    dst: ~/.gitignore
 profiles:
   tdesktop:
     dotfiles:
@@ -98,3 +101,4 @@ profiles:
     - f_cheat
     - f_rr
     - f_kill_on_port
+    - f_gitignore

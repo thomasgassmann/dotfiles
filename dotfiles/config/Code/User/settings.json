@@ -16,5 +16,13 @@
     "editor.formatOnSave": true,
     "workbench.startupEditor": "newUntitledFile",
     "go.useLanguageServer": true,
-    "workbench.colorTheme": "Chromodynamics"
+    "workbench.colorTheme": "Chromodynamics",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/XDG_CACHE_HOME": true
+    }
 }
