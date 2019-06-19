@@ -83,6 +83,9 @@ dotfiles:
   f_70-synaptics.conf:
     src: usr/share/X11/xorg.conf.d/70-synaptics.conf
     dst: /usr/share/X11/xorg.conf.d/70-synaptics.conf
+  f_vconsole.conf:
+    src: etc/vconsole.conf
+    dst: /etc/vconsole.conf
 profiles:
   tdesktop:
     dotfiles:
@@ -112,3 +115,4 @@ profiles:
     dotfiles:
     - f_config
     - f_70-synaptics.conf
+    - f_vconsole.conf
