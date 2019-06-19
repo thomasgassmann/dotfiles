@@ -80,6 +80,9 @@ dotfiles:
   f_config:
     src: config/i3/config
     dst: ~/.config/i3/config
+  f_70-synaptics.conf:
+    src: usr/share/X11/xorg.conf.d/70-synaptics.conf
+    dst: /usr/share/X11/xorg.conf.d/70-synaptics.conf
 profiles:
   tdesktop:
     dotfiles:
@@ -108,3 +111,4 @@ profiles:
   surface:
     dotfiles:
     - f_config
+    - f_70-synaptics.conf
