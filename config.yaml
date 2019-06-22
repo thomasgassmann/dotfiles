@@ -77,6 +77,15 @@ dotfiles:
   f_gitignore:
     src: gitignore
     dst: ~/.gitignore
+  f_config:
+    src: config/i3/config
+    dst: ~/.config/i3/config
+  f_70-synaptics.conf:
+    src: usr/share/X11/xorg.conf.d/70-synaptics.conf
+    dst: /usr/share/X11/xorg.conf.d/70-synaptics.conf
+  f_vconsole.conf:
+    src: etc/vconsole.conf
+    dst: /etc/vconsole.conf
 profiles:
   tdesktop:
     dotfiles:
@@ -102,3 +111,8 @@ profiles:
     - f_rr
     - f_kill_on_port
     - f_gitignore
+  surface:
+    dotfiles:
+    - f_config
+    - f_70-synaptics.conf
+    - f_vconsole.conf
