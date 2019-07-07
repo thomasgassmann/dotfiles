@@ -86,6 +86,9 @@ dotfiles:
   f_vconsole.conf:
     src: etc/vconsole.conf
     dst: /etc/vconsole.conf
+  f_config.json:
+    src: docker/config.json
+    dst: ~/.docker/config.json
 profiles:
   tdesktop:
     dotfiles:
@@ -111,6 +114,7 @@ profiles:
     - f_rr
     - f_kill_on_port
     - f_gitignore
+    - f_config.json
   surface:
     dotfiles:
     - f_config
