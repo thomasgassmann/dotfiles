@@ -89,7 +89,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
+source <(kubectl completion bash)
 
 if [ -f ~/.bashrc.local ]; then
   source ~/.bashrc.local
