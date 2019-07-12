@@ -89,6 +89,9 @@ dotfiles:
   f_config.json:
     src: docker/config.json
     dst: ~/.docker/config.json
+  f_config.rasi:
+    src: config/rofi/config.rasi
+    dst: ~/.config/rofi/config.rasi
 profiles:
   tdesktop:
     dotfiles:
@@ -120,3 +123,4 @@ profiles:
     - f_config
     - f_70-synaptics.conf
     - f_vconsole.conf
+    - f_config.rasi
