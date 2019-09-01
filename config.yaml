@@ -1,6 +1,6 @@
 config:
   backup: true
-  banner: true
+  banner: false
   create: true
   dotpath: dotfiles
   ignoreempty: false
@@ -8,8 +8,8 @@ config:
   link_dotfile_default: nolink
   link_on_import: nolink
   longkey: false
-  showdiff: false
-  workdir: ~/.config/dotdrop
+  showdiff: true
+  workdir: ~/git/dotfiles/dotdrop
 dotfiles:
   f_bash_profile:
     dst: ~/.bash_profile
