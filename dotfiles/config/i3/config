@@ -44,7 +44,8 @@ bindsym $mod+d exec --no-startup-id rofi -show drun -config ~/.config/rofi/confi
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
-bindsym Mod1+Tab exec --no-startup-id rofi -show window -config ~/.config/rofi/config.rasi
+bindsym Mod1+Tab exec --no-startup-id rofi -show windowcd -config ~/.config/rofi/config.rasi
+bindsym $mod+Tab exec --no-startup-id rofi -show window -config ~/.config/rofi/config.rasi
 
 # change focus
 bindsym $mod+j focus left
