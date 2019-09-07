@@ -1,0 +1,4 @@
+#!/bin/bash
+
+curl $1 -o /tmp/dotnet-sdk
+tar zxf /tmp/dotnet-sdk -C /usr/share/dotnet/

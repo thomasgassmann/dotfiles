@@ -65,6 +65,9 @@ dotfiles:
   f_weather:
     dst: ~/.local/bin/weather
     src: local/bin/weather
+  f_install_dotnet_sdk:
+    dst: ~/.local/bin/install_dotnet_sdk
+    src: local/bin/install_dotnet_sdk
   f_whereami:
     dst: ~/.local/bin/whereami
     src: local/bin/whereami
@@ -95,32 +98,33 @@ dotfiles:
 profiles:
   tdesktop:
     dotfiles:
-    - f_force-hibernate
-    - f_myip
-    - f_weather
-    - f_whereami
-    - f_iptoint
-    - f_inttoip
-    - f_vimrc
-    - f_profile
-    - f_bashrc
-    - f_zshrc
-    - f_keybindings.json
-    - f_settings.json
-    - f_tmux.conf
-    - f_gitconfig
-    - f_curlrc
-    - f_bash_profile
-    - f_ifconfigc
-    - f_tinyurl
-    - f_cheat
-    - f_rr
-    - f_kill_on_port
-    - f_gitignore
-    - f_config.json
+      - f_force-hibernate
+      - f_myip
+      - f_weather
+      - f_whereami
+      - f_iptoint
+      - f_inttoip
+      - f_vimrc
+      - f_profile
+      - f_bashrc
+      - f_zshrc
+      - f_keybindings.json
+      - f_settings.json
+      - f_tmux.conf
+      - f_gitconfig
+      - f_curlrc
+      - f_bash_profile
+      - f_ifconfigc
+      - f_tinyurl
+      - f_cheat
+      - f_rr
+      - f_kill_on_port
+      - f_gitignore
+      - f_config.json
+      - f_install_dotnet_sdk
   surface:
     dotfiles:
-    - f_config
-    - f_70-synaptics.conf
-    - f_vconsole.conf
-    - f_config.rasi
+      - f_config
+      - f_70-synaptics.conf
+      - f_vconsole.conf
+      - f_config.rasi
