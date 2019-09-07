@@ -95,6 +95,9 @@ dotfiles:
   f_config.rasi:
     src: config/rofi/config.rasi
     dst: ~/.config/rofi/config.rasi
+  f_i3status.conf:
+    src: etc/i3status.conf
+    dst: /etc/i3status.conf
 profiles:
   tdesktop:
     dotfiles:
@@ -124,7 +127,8 @@ profiles:
       - f_install_dotnet_sdk
   surface:
     dotfiles:
-      - f_config
-      - f_70-synaptics.conf
-      - f_vconsole.conf
-      - f_config.rasi
+    - f_config
+    - f_70-synaptics.conf
+    - f_vconsole.conf
+    - f_config.rasi
+    - f_i3status.conf
