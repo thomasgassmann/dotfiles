@@ -262,3 +262,4 @@ _dotnet_zsh_complete()
 }
 
 compctl -K _dotnet_zsh_complete dotnet
+source /home/thomas/.config/broot/launcher/bash/br
