@@ -1,98 +1,85 @@
-
 wtf:
   colors:
+    background: black
     border:
       focusable: darkslateblue
       focused: orange
       normal: gray
+    checked: yellow
+    highlight:
+      fore: black
+      back: gray
+    rows:
+      even: yellow
+      odd: white
   grid:
     columns: [32, 32, 32, 32]
-    rows: [10, 10, 10, 4, 4]
+    rows: [7, 10, 10, 4, 4]
   refreshInterval: 1
   mods:
-    clocks_a:
+    clocks:
+      enabled: true
       colors:
         rows:
           even: "lightblue"
           odd: "white"
-      enabled: true
       locations:
-        Vancouver: "America/Vancouver"
+        UTC: "Etc/UTC"
+        Zurich: "Europe/Zurich"
         Toronto: "America/Toronto"
-      position:
-        top: 0
-        left: 1
-        height: 1
-        width: 1
-      refreshInterval: 15
-      sort: "alphabetical"
-      title: "Clocks A"
-      type: "clocks"
-    clocks_b:
-      colors:
-        rows:
-          even: "lightblue"
-          odd: "white"
-      enabled: true
-      locations:
-        Avignon: "Europe/Paris"
-        Barcelona: "Europe/Madrid"
-        Dubai: "Asia/Dubai"
-      position:
-        top: 0
-        left: 2
-        height: 1
-        width: 1
-      refreshInterval: 15
-      sort: "alphabetical"
-      title: "Clocks B"
-      type: "clocks"
-    feedreader:
-      enabled: true
-      feeds:
-      - http://wtfutil.com/blog/index.xml
-      feedLimit: 10
-      position:
-        top: 1
-        left: 1
-        width: 2
-        height: 1
-      updateInterval: 14400
-    ipinfo:
-      colors:
-        name: "lightblue"
-        value: "white"
-      enabled: true
-      position:
-        top: 2
-        left: 1
-        height: 1
-        width: 1
-      refreshInterval: 150
-    power:
-      enabled: true
-      position:
-        top: 2
-        left: 2
-        height: 1
-        width: 1
-      refreshInterval: 15
-      title: "⚡️"
-    textfile:
-      enabled: true
-      filePath: "~/.config/wtf/config.yml"
-      format: true
+        Shanghai: "Asia/Shanghai"
       position:
         top: 0
         left: 0
-        height: 4
+        height: 1
         width: 1
-      refreshInterval: 30
-      wrapText: false
+      refreshInterval: 15
+      sort: "alphabetical"
+      title: "Time"
+      type: "clocks"
+    ipinfo:
+      enabled: true
+      colors:
+        name: "lightblue"
+        value: "white"
+      position:
+        top: 1
+        left: 0
+        height: 1
+        width: 1
+      refreshInterval: 150
+    gcal:
+      colors:
+        title: "red"
+        description: "lightblue"
+        highlights:
+          - ['1on1|1\/11', "green"]
+          - ["apple|google|aws", "blue"]
+          - ["interview|meet", "magenta"]
+          - ["lunch", "yellow"]
+        past: "gray"
+      calendarReadLevel: "reader"
+      conflictIcon: "🚨"
+      currentIcon: "💥"
+      displayResponseStatus: true
+      email: "tg.thomas.gassmann@gmail.com"
+      enabled: true
+      eventCount: 12
+      multiCalendar: true
+      position:
+        top: 0
+        left: 1
+        height: 3
+        width: 3
+      refreshInterval: 300
+      secretFile: "~/.config/wtf/gcal/client_secret.json"
+      showDeclined: true
+      timezone: "Europe/Zurich"
+      withLocation: true
     uptime:
+      enabled: true
       args: [""]
       cmd: "uptime"
-      enabled: true
       position:
         top: 3
         left: 1
@@ -100,3 +87,13 @@ wtf:
         width: 2
       refreshInterval: 30
       type: cmdrunner
+    hackernews:
+      enabled: true
+      numberOfStories: 10
+      position:
+        top: 2
+        left: 0
+        height: 2
+        width: 1
+      storyType: top
+      refreshInterval: 900
