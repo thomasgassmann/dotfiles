@@ -98,33 +98,36 @@ dotfiles:
   f_i3status.conf:
     src: etc/i3status.conf
     dst: /etc/i3status.conf
+  f_xresources:
+    src: Xresources
+    dst: ~/.Xresources
 profiles:
   tdesktop:
     dotfiles:
-      - f_force-hibernate
-      - f_myip
-      - f_weather
-      - f_whereami
-      - f_iptoint
-      - f_inttoip
-      - f_vimrc
-      - f_profile
-      - f_bashrc
-      - f_zshrc
-      - f_keybindings.json
-      - f_settings.json
-      - f_tmux.conf
-      - f_gitconfig
-      - f_curlrc
-      - f_bash_profile
-      - f_ifconfigc
-      - f_tinyurl
-      - f_cheat
-      - f_rr
-      - f_kill_on_port
-      - f_gitignore
-      - f_config.json
-      - f_install_dotnet_sdk
+    - f_force-hibernate
+    - f_myip
+    - f_weather
+    - f_whereami
+    - f_iptoint
+    - f_inttoip
+    - f_vimrc
+    - f_profile
+    - f_bashrc
+    - f_zshrc
+    - f_keybindings.json
+    - f_settings.json
+    - f_tmux.conf
+    - f_gitconfig
+    - f_curlrc
+    - f_bash_profile
+    - f_ifconfigc
+    - f_tinyurl
+    - f_cheat
+    - f_rr
+    - f_kill_on_port
+    - f_gitignore
+    - f_config.json
+    - f_install_dotnet_sdk
   surface:
     dotfiles:
     - f_config
@@ -132,3 +135,4 @@ profiles:
     - f_vconsole.conf
     - f_config.rasi
     - f_i3status.conf
+    - f_xresources
