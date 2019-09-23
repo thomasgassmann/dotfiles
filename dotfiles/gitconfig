@@ -7,6 +7,7 @@
 [alias]
     ll = log --date=short --format=format:'%C(auto)%h%C(reset) %C(cyan)%ad%C(reset) %C(green)(%ar)%C(reset)%C(auto)%d%C(reset) %s - %C(yellow)%an%C(reset)'
     l = !git ll --all --graph
+	sdiff = !git diff && git submodule foreach 'git diff'
 [commit]
 	gpgSign = true
 [sequence]
