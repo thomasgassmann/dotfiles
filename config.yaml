@@ -140,3 +140,4 @@ profiles:
       - f_rofi_config.rasi
       - f_i3status.conf
       - f_xresources
+      - f_tmux.conf
