@@ -11,7 +11,8 @@ XTerm*faceName: xft:Mononoki Nerd Font
 XTerm*faceSize: 12
 XTerm*utf8: 2
 XTerm*locale: true
-
+XTerm*background: black
+XTerm*foreground: green
 XTerm*savelines: 16384
 
 ! urls
