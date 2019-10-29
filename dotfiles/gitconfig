@@ -12,5 +12,5 @@
 [commit]
 	gpgSign = true
 [core]
-	excludesfile = /home/thomas/.gitignore
+	excludesfile = ~/.gitignore
 	editor = vim
