@@ -11,7 +11,6 @@
     stats = shortlog -s -n --all
 [commit]
 	gpgSign = true
-[sequence]
-	editor = vim
 [core]
 	excludesfile = /home/thomas/.gitignore
+	editor = vim
