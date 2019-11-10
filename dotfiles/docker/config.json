@@ -6,8 +6,5 @@
         "asia.gcr.io": "gcloud",
         "staging-k8s.gcr.io": "gcloud",
         "marketplace.gcr.io": "gcloud"
-    },
-    "HttpHeaders": {
-        "User-Agent": "Docker-Client/18.09.3 (linux)"
     }
 }
