@@ -21,6 +21,7 @@ fi
 # exports
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
 
 export PIPENV_VENV_IN_PROJECT=1
 
@@ -33,6 +34,7 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 export PATH="$PATH:/opt"
 export PATH="$PATH:/opt/mssql-tools/bin"
 export PATH="$PATH:/opt/jadx/bin"
+export PATH="$PATH:/opt/smali"
 
 export EDITOR=vim
 
