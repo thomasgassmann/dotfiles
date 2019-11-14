@@ -11,6 +11,11 @@
     stats = shortlog -s -n --all
 [commit]
 	gpgSign = true
+[sequence]
+	editor = vim
 [core]
 	excludesfile = ~/.gitignore
 	editor = vim
+	commitGraph = true
+[gc]
+	writeCommitGraph = true
