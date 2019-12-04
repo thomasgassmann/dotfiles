@@ -29,7 +29,9 @@ bindsym $mod+Shift+q kill
 
 # rofi
 bindsym $mod+d exec --no-startup-id rofi -show drun -config ~/.config/rofi/config.rasi
-bindsym Mod1+Tab exec --no-startup-id rofi -show windowcd -config ~/.config/rofi/config.rasi
+bindsym Mod1+Tab focus right
+bindsym Mod1+Shift+Tab focus left
+bindsym $mod+Shift+Tab exec --no-startup-id rofi -show windowcd -config ~/.config/rofi/config.rasi
 bindsym $mod+Tab exec --no-startup-id rofi -show window -config ~/.config/rofi/config.rasi
 
 # audio
