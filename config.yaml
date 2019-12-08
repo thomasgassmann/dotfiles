@@ -134,7 +134,6 @@ profiles:
       - f_gitignore
       - f_docker_config.json
       - f_install_dotnet_sdk
-      - f_wtfutil_config.yml
       - f_clr_dev
   surface:
     dotfiles:
