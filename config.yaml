@@ -104,6 +104,9 @@ dotfiles:
   f_xresources:
     src: Xresources
     dst: ~/.Xresources
+  f_clr_dev:
+    src: init/clr/init.sh
+    dst: ~/init/clr.sh
 profiles:
   tdesktop:
     dotfiles:
@@ -132,6 +135,7 @@ profiles:
       - f_docker_config.json
       - f_install_dotnet_sdk
       - f_wtfutil_config.yml
+      - f_clr_dev
   surface:
     dotfiles:
       - f_i3_config
