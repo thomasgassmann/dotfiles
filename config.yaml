@@ -105,7 +105,7 @@ dotfiles:
     src: Xresources
     dst: ~/.Xresources
   f_clr_dev:
-    src: init/clr/init.sh
+    src: init/clr.sh
     dst: ~/init/clr.sh
 profiles:
   tdesktop:
