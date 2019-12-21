@@ -19,3 +19,5 @@
 	commitGraph = true
 [gc]
 	writeCommitGraph = true
+[help]
+	autocorrect = 1
