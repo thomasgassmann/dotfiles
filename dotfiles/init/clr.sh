@@ -7,3 +7,4 @@ export CLR_LINK=/usr/bin/link
 export CLR_NM=/usr/bin/nm
 
 export PATH=$PATH:/home/thomas/git/dotnet/runtime/artifacts/bin/coreclr/Linux.x64.Debug
+export CORE_ROOT=/home/thomas/git/dotnet/runtime/artifacts\tests\coreclr\Windows_NT.x64.Debug\Tests\Core_Root
