@@ -35,6 +35,7 @@ export PATH="$PATH:/opt"
 export PATH="$PATH:/opt/mssql-tools/bin"
 export PATH="$PATH:/opt/jadx/bin"
 export PATH="$PATH:/opt/smali"
+export PATH="/usr/local/i386elfgcc/bin:$PATH"
 
 export EDITOR=vim
 
@@ -58,8 +59,7 @@ alias l='ll -h'
 alias la='ll -a'
 alias grep='grep --color=auto'
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-alias wtf=wtfutil
-alias clip=xsel -ib # pipe to clipboard
+alias open=xdg-open
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
