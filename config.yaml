@@ -74,9 +74,9 @@ dotfiles:
   f_zshrc:
     dst: ~/.zshrc
     src: zshrc
-  f_kill_on_port:
-    dst: ~/.local/bin/kill_on_port
-    src: local/bin/kill_on_port
+  f_killport:
+    dst: ~/.local/bin/killport
+    src: local/bin/killport
   f_gitignore:
     src: gitignore
     dst: ~/.gitignore
@@ -130,11 +130,14 @@ profiles:
       - f_tinyurl
       - f_cheat
       - f_rr
-      - f_kill_on_port
+      - f_killport
       - f_gitignore
       - f_docker_config.json
       - f_install_dotnet_sdk
       - f_clr_dev
+      - f_i3_config
+      - f_i3status.conf
+      - f_xresources
   surface:
     dotfiles:
       - f_i3_config
