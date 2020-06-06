@@ -98,9 +98,6 @@ dotfiles:
   f_i3status.conf:
     src: etc/i3status.conf
     dst: /etc/i3status.conf
-  f_wtfutil_config.yml:
-    src: config/wtf/config.yml
-    dst: ~/.config/wtf/config.yml
   f_xresources:
     src: Xresources
     dst: ~/.Xresources
