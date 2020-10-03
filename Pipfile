@@ -9,6 +9,7 @@ verify_ssl = true
 docopt = "*"
 Jinja2 = "*"
 PyYAML = "*"
+"ruamel.yaml" = "*"
 
 [requires]
 python_version = "3.7"
