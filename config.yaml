@@ -108,46 +108,6 @@ dotfiles:
     src: config/1Password/settings/settings.json
     dst: ~/.config/1Password/settings/settings.json
 profiles:
-  tdesktop:
-    dotfiles:
-    - f_force-hibernate
-    - f_myip
-    - f_weather
-    - f_whereami
-    - f_iptoint
-    - f_inttoip
-    - f_vimrc
-    - f_profile
-    - f_bashrc
-    - f_zshrc
-    - f_keybindings.json
-    - f_settings.json
-    - f_tmux.conf
-    - f_gitconfig
-    - f_curlrc
-    - f_bash_profile
-    - f_ifconfigc
-    - f_tinyurl
-    - f_cheat
-    - f_rr
-    - f_killport
-    - f_gitignore
-    - f_docker_config.json
-    - f_install_dotnet_sdk
-    - f_clr_dev
-    - f_i3_config
-    - f_i3status.conf
-    - f_xresources
-  surface:
-    dotfiles:
-    - f_i3_config
-    - f_70-synaptics.conf
-    - f_vconsole.conf
-    - f_rofi_config.rasi
-    - f_i3status.conf
-    - f_xresources
-    - f_tmux.conf
-    - f_docker_config.json
   raptor:
     dotfiles:
     - f_settings_settings.json
