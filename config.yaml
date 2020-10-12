@@ -11,21 +11,12 @@ config:
   showdiff: true
   workdir: ~/git/dotfiles/dotdrop
 dotfiles:
-  f_bash_profile:
-    dst: ~/.bash_profile
-    src: bash_profile
   f_bashrc:
     dst: ~/.bashrc
     src: bashrc
   f_cheat:
     dst: ~/.local/bin/cheat
     src: local/bin/cheat
-  f_curlrc:
-    dst: ~/.curlrc
-    src: curlrc
-  f_force-hibernate:
-    dst: ~/.local/bin/force-hibernate
-    src: local/bin/force-hibernate
   f_gitconfig:
     dst: ~/.gitconfig
     src: gitconfig
@@ -65,9 +56,6 @@ dotfiles:
   f_weather:
     dst: ~/.local/bin/weather
     src: local/bin/weather
-  f_install_dotnet_sdk:
-    dst: ~/.local/bin/install_dotnet_sdk
-    src: local/bin/install_dotnet_sdk
   f_whereami:
     dst: ~/.local/bin/whereami
     src: local/bin/whereami
@@ -83,9 +71,6 @@ dotfiles:
   f_i3_config:
     src: config/i3/config
     dst: ~/.config/i3/config
-  f_70-synaptics.conf:
-    src: usr/share/X11/xorg.conf.d/70-synaptics.conf
-    dst: /usr/share/X11/xorg.conf.d/70-synaptics.conf
   f_vconsole.conf:
     src: etc/vconsole.conf
     dst: /etc/vconsole.conf
@@ -101,9 +86,6 @@ dotfiles:
   f_xresources:
     src: Xresources
     dst: ~/.Xresources
-  f_clr_dev:
-    src: init/clr.sh
-    dst: ~/init/clr.sh
   f_settings_settings.json:
     src: config/1Password/settings/settings.json
     dst: ~/.config/1Password/settings/settings.json
