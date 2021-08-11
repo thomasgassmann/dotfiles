@@ -89,11 +89,11 @@ dotfiles:
   f_settings_settings.json:
     src: config/1Password/settings/settings.json
     dst: ~/.config/1Password/settings/settings.json
-  f_gitconfig_1:
-    src: gitconfig
-    dst: ~/.gitconfig
+  f_htoprc:
+    src: config/htop/htoprc
+    dst: ~/.config/htop/htoprc
 profiles:
   raptor:
     dotfiles:
     - f_settings_settings.json
-    - f_gitconfig_1
+    - f_htoprc
