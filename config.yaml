@@ -97,3 +97,7 @@ profiles:
     dotfiles:
     - f_settings_settings.json
     - f_htoprc
+  matebook:
+    dotfiles:
+    - f_settings_settings.json
+    - f_htoprc
