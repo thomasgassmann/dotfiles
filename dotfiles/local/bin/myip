@@ -1,3 +1,0 @@
-#!/bin/bash
-
-curl -w "\n" -s https://canihazip.com/s
