@@ -18,6 +18,8 @@ SAVEHIST=1000
 
 # keybinding
 bindkey -v # vim
+bindkey '^H' backward-kill-word
+bindkey "\e[3~" delete-char
 
 # use fzf for reverse search
 [[ -s "/usr/share/fzf/key-bindings.zsh" ]] && source "/usr/share/fzf/key-bindings.zsh"
