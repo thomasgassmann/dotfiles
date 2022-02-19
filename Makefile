@@ -19,12 +19,10 @@ endef
 
 define install_common
 	$(call install, $(DEST_HOME), common, home)
-	$(call sinstall, $(DEST_ETC), common, etc)
 endef
 
 define uninstall_common
 	$(call uninstall, $(DEST_HOME), common, home)
-	$(call suninstall, $(DEST_ETC), common, etc)
 endef
 
 define install_desktop
@@ -64,6 +62,7 @@ uninstall-raptor:
 .PHONY: nas
 nas: setup
 	$(call install_common)
+	$(call sinstall, $(DEST_ETC), nas, etc)
 
 .PHONY: uninstall-nas
 uninstall-nas:
