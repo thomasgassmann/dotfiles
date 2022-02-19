@@ -6,6 +6,7 @@ My personal dotfiles.
 
 - zsh
 - zsh-completions
+- fzf
 - (more to follow)
 
 ## Installation

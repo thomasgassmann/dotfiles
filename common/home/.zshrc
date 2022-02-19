@@ -18,7 +18,10 @@ SAVEHIST=1000
 
 # keybinding
 bindkey -v # vim
-bindkey '^R' history-incremental-search-backward
+
+[[ -s "/usr/share/fzf/key-bindings.zsh" ]] && source "/usr/share/fzf/key-bindings.zsh"
+[[ -s "/usr/share/fzf/completion.zsh" ]] && source "/usr/share/fzf/completion.zsh"
+
 
 # alias
 alias ls='ls --color=auto'
