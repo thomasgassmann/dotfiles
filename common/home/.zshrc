@@ -16,8 +16,9 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 
-# vim bindings
-bindkey -v
+# keybinding
+bindkey -v # vim
+bindkey '^R' history-incremental-search-backward
 
 # alias
 alias ls='ls --color=auto'
