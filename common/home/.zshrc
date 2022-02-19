@@ -36,6 +36,7 @@ alias l='ll -h'
 alias la='ll -a'
 alias open=xdg-open
 alias copy='xclip -selection clipboard -i'
+alias gs='git status'
 
 # exports
 export EDITOR=vim
