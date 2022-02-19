@@ -7,6 +7,7 @@ My personal dotfiles.
 - zsh
 - zsh-completions
 - zsh-autosuggestions
+- zsh-syntax-highlighting
 - fzf
 - (more to follow)
 
