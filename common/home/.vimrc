@@ -1,0 +1,10 @@
+set nocompatible
+syntax on
+set number
+set relativenumber
+set laststatus=2
+set backspace=indent,eol,start
+set ignorecase
+set smartcase
+set incsearch
+set mouse+=a

@@ -1,6 +1,0 @@
-{
-  "$schema": "https://onepassword.s3.amazonaws.com/schema/settings.json",
-  "security.autolock.onWindowClose": true,
-  "security.autolock.minutes": 180,
-  "security.autolock.onDeviceLock": true
-}

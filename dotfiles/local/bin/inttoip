@@ -1,8 +1,0 @@
-#! /usr/bin/python3
-
-import socket
-import struct
-import sys
-
-if __name__ == '__main__':
-    print(socket.inet_ntoa(struct.pack('!L', int(sys.argv[1]))))
