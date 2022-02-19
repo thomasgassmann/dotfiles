@@ -30,6 +30,10 @@ alias copy='xclip -selection clipboard -i'
 # exports
 export EDITOR=vim
 export PIPENV_VENV_IN_PROJECT=1 # store .venv locally if we use pipenv
+export GOPATH=$HOME/go
+
+# update path
+export PATH=$PATH:$GOPATH/bin
 
 # go version manager
 [[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
