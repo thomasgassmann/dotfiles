@@ -1,31 +1,31 @@
 DESTINATION = $(HOME)
 
 setup:
-	@mkdir -p $(DESTINATION)
+	@mkdir -p $(DESTINATION)/.config/1Password/settings
 
 # matebook
-.PHONY: install
+.PHONY: matebook
 matebook: setup
 	@stow  --target $(DESTINATION) common matebook
 
-.PHONY: uninstall
+.PHONY: uninstall-matebook
 uninstall-matebook:
 	@stow --target $(DESTINATION) --delete common matebook
 
 # raptor
-.PHONY: install
+.PHONY: raptor
 raptor: setup
 	@stow  --target $(DESTINATION) common raptor
 
-.PHONY: uninstall
+.PHONY: uninstall-raptor
 uninstall-raptor:
 	@stow --target $(DESTINATION) --delete common raptor
 
 # nas
-.PHONY: install
+.PHONY: nas
 nas: setup
 	@stow  --target $(DESTINATION) common nas
 
-.PHONY: uninstall
+.PHONY: uninstall-nas
 uninstall-nas:
 	@stow --target $(DESTINATION) --delete common nas

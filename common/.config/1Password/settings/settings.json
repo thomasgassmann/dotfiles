@@ -1,0 +1,13 @@
+{
+  "$schema": "https://onepassword.s3.amazonaws.com/schema/settings.json",
+  "security.autolock.onWindowClose": true,
+  "security.autolock.minutes": 180,
+  "security.autolock.onDeviceLock": true,
+  "security.authenticatedUnlock.enabled": true,
+  "app.theme": "dark",
+  "advanced.EnableDebuggingTools": false,
+  "passwordGenerator.includeSymbols": false,
+  "passwordGenerator.size.characters": 25,
+  "passwordGenerator.capitalize": false,
+  "app.useHardwareAcceleration": true
+}
