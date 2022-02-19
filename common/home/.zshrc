@@ -9,7 +9,7 @@ compinit
 promptinit
 
 # prompt
-prompt walters
+prompt redhat
 
 # history
 HISTFILE=~/.histfile
