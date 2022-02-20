@@ -62,7 +62,6 @@ uninstall-raptor:
 .PHONY: nas
 nas: setup
 	$(call install_common)
-	$(call sinstall, $(DEST_ETC), nas, etc)
 
 .PHONY: uninstall-nas
 uninstall-nas:
