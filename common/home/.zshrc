@@ -52,4 +52,4 @@ export PATH=$PATH:$GOPATH/bin
 # npm version manager (TODO: we could switch npm version automatically, see nvm docs)
 [[ -s "/usr/share/nvm/init-nvm.sh" ]] && source "/usr/share/nvm/init-nvm.sh"
 
-[[ $TERM != "screen" && -s $(which tmux) ]] && exec tmux
+if [ "$TMUX" = "" ] && [ -s $(which tmux) ]; then exec tmux; fi
