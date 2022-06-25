@@ -37,6 +37,7 @@ alias la='ll -a'
 alias open=xdg-open
 alias copy='xclip -selection clipboard -i'
 alias gs='git status'
+alias todo='notify-send --icon=task-due -u low '
 
 # exports
 export EDITOR=vim
