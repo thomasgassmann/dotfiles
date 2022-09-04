@@ -55,5 +55,3 @@ export PATH=$PATH:$GOPATH/bin
 
 # local
 [[ -s "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"
-
-if [ "$TMUX" = "" ] && [ -s $(which tmux) ]; then exec tmux; fi
