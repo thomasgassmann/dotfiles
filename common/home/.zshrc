@@ -53,4 +53,7 @@ export PATH=$PATH:$GOPATH/bin
 # npm version manager (TODO: we could switch npm version automatically, see nvm docs)
 [[ -s "/usr/share/nvm/init-nvm.sh" ]] && source "/usr/share/nvm/init-nvm.sh"
 
+# local
+[[ -s "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"
+
 if [ "$TMUX" = "" ] && [ -s $(which tmux) ]; then exec tmux; fi
