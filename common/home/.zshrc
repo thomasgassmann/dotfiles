@@ -50,6 +50,7 @@ export GOPATH=$HOME/go
 
 # update path
 export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$HOME/.local/bin
 
 # go version manager
 [[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
