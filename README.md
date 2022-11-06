@@ -9,6 +9,7 @@ My personal dotfiles.
 - zsh-autosuggestions
 - zsh-syntax-highlighting
 - fzf
+- oh-my-zsh-git
 - (more to follow)
 
 ## Installation
