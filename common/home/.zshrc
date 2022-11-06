@@ -1,3 +1,14 @@
+# oh-my-zsh stuff
+ZSH=/usr/share/oh-my-zsh/
+ZSH_THEME="af-magic"
+
+ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
+if [[ ! -d $ZSH_CACHE_DIR ]]; then
+    mkdir $ZSH_CACHE_DIR
+fi
+
+plugins=(git)
+
 # do nothing if not running interactively
 [[ $- != *i* ]] && return
 
@@ -20,14 +31,6 @@ SAVEHIST=1000
 bindkey -v # vim
 bindkey '^H' backward-kill-word
 bindkey "\e[3~" delete-char
-
-# use fzf for reverse search
-[[ -s "/usr/share/fzf/key-bindings.zsh" ]] && source "/usr/share/fzf/key-bindings.zsh"
-[[ -s "/usr/share/fzf/completion.zsh" ]] && source "/usr/share/fzf/completion.zsh"
-[[ -s "/usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ]] && \
-    source "/usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
-[[ -s "/usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh" ]] && \
-    source "/usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh"
 
 # alias
 alias ls='ls --color=auto'
@@ -60,3 +63,13 @@ export PATH=$PATH:$HOME/.local/bin
 
 # local
 [[ -s "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"
+
+source $ZSH/oh-my-zsh.sh
+
+# use fzf for reverse search
+[[ -s "/usr/share/fzf/key-bindings.zsh" ]] && source "/usr/share/fzf/key-bindings.zsh"
+[[ -s "/usr/share/fzf/completion.zsh" ]] && source "/usr/share/fzf/completion.zsh"
+[[ -s "/usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ]] && \
+    source "/usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+[[ -s "/usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh" ]] && \
+    source "/usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh"
