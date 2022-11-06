@@ -32,20 +32,6 @@ bindkey -v # vim
 bindkey '^H' backward-kill-word
 bindkey "\e[3~" delete-char
 
-# alias
-alias ls='ls --color=auto'
-alias ll='ls -lG --color=auto --group-directories-first'
-alias l='ll -h'
-alias la='ll -a'
-alias open=xdg-open
-alias copy='xclip -selection clipboard -i'
-alias todo='notify-send --icon=task-due -u low '
-
-# git aliases
-alias gs='git status'
-alias gl='git l'
-alias gc='git commit -s'
-
 # exports
 export EDITOR=vim
 export PIPENV_VENV_IN_PROJECT=1 # store .venv locally if we use pipenv
@@ -73,3 +59,17 @@ source $ZSH/oh-my-zsh.sh
     source "/usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 [[ -s "/usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh" ]] && \
     source "/usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh"
+
+# git aliases
+alias gs='git status'
+alias gl='git l'
+alias gc='git commit -s -v'
+
+# alias
+alias ls='ls --color=auto'
+alias ll='ls -lG --color=auto --group-directories-first'
+alias l='ll -h'
+alias la='ll -a'
+alias open=xdg-open
+alias copy='xclip -selection clipboard -i'
+alias todo='notify-send --icon=task-due -u low '
