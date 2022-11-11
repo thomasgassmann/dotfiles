@@ -34,7 +34,6 @@ define uninstall_desktop
 endef
 
 setup_desktop:
-	@mkdir -p $(DEST_HOME)/.config/1Password/settings
 	@mkdir -p $(DEST_HOME)/.sage
 
 # matebook
