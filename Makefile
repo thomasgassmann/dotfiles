@@ -33,12 +33,13 @@ define uninstall_desktop
 	$(call uninstall, $(DEST_HOME), desktop, home)
 endef
 
-setup:
+setup_desktop:
 	@mkdir -p $(DEST_HOME)/.config/1Password/settings
+	@mkdir -p $(DEST_HOME)/.sage
 
 # matebook
 .PHONY: matebook
-matebook: setup
+matebook: setup_desktop
 	$(call install_common)
 	$(call install_desktop)
 
@@ -49,7 +50,7 @@ uninstall-matebook:
 
 # raptor
 .PHONY: raptor
-raptor: setup
+raptor: setup_desktop
 	$(call install_common)
 	$(call install_desktop)
 
@@ -60,7 +61,7 @@ uninstall-raptor:
 
 # nas
 .PHONY: nas
-nas: setup
+nas:
 	$(call install_common)
 
 .PHONY: uninstall-nas
