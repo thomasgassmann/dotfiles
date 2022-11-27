@@ -27,11 +27,6 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 
-# keybinding
-bindkey -v # vim
-bindkey '^H' backward-kill-word
-bindkey "\e[3~" delete-char
-
 # exports
 export EDITOR=vim
 export PIPENV_VENV_IN_PROJECT=1 # store .venv locally if we use pipenv
@@ -51,6 +46,10 @@ export PATH=$PATH:$HOME/.local/bin
 [[ -s "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"
 
 source $ZSH/oh-my-zsh.sh
+
+# keybinding
+bindkey -v # vim
+bindkey '^H' backward-kill-word
 
 # use fzf for reverse search
 [[ -s "/usr/share/fzf/key-bindings.zsh" ]] && source "/usr/share/fzf/key-bindings.zsh"
