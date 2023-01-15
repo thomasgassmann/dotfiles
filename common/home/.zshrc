@@ -34,7 +34,7 @@ export GOPATH=$HOME/go
 
 # update path
 export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:$HOME/.local/bin
+export PATH=$HOME/.local/bin:$PATH
 
 # go version manager
 [[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
@@ -43,7 +43,7 @@ export PATH=$PATH:$HOME/.local/bin
 [[ -s "/usr/share/nvm/init-nvm.sh" ]] && source "/usr/share/nvm/init-nvm.sh"
 
 # local
-[[ -s "$HOME/.zshrc.local" ]] && source "$HOME/.zshrc.local"
+[[ -s "$HOME/.local.zshrc" ]] && source "$HOME/.local.zshrc"
 
 source $ZSH/oh-my-zsh.sh
 
