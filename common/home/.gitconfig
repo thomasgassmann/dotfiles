@@ -18,3 +18,5 @@
 	defaultBranch = main
 [pull]
 	rebase = false
+[color]
+	ui = auto

@@ -4,6 +4,7 @@ My personal dotfiles.
 
 ## Required packages
 
+- stow
 - zsh
 - zsh-completions
 - zsh-autosuggestions
@@ -14,7 +15,7 @@ My personal dotfiles.
 
 ## Installation
 
-There are currently three targets: `raptor`, `nas` and `matebook`.
+There are currently two targets: `headless` and `desktop`.
 
 ### raptor
 
