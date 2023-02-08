@@ -10,8 +10,8 @@ My personal dotfiles.
 - zsh-autosuggestions
 - zsh-syntax-highlighting
 - fzf
-- oh-my-zsh-git
-- (more to follow)
+- oh-my-zsh-git (AUR)
+- tmux
 
 ## Installation
 
