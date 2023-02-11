@@ -51,10 +51,12 @@ uninstall-desktop:
 .PHONY: matebook
 matebook: desktop
 	$(call install, $(DEST_HOME), matebook, home)
+	$(call sinstall, $(DEST_ETC), matebook, etc)
 
 .PHONY: uninstall-matebook
 uninstall-matebook: uninstall-desktop
 	$(call uninstall, $(DEST_HOME), matebook, home)
+	$(call suninstall, $(DEST_ETC), matebook, etc)
 
 # headless
 .PHONY: headless
