@@ -47,6 +47,15 @@ uninstall-desktop:
 	$(call uninstall, $(DEST_HOME), desktop, home)
 	$(call suninstall, $(DEST_ETC), desktop, etc)
 
+# matebook
+.PHONY: matebook
+matebook: desktop
+	$(call install, $(DEST_HOME), matebook, home)
+
+.PHONY: uninstall-matebook
+uninstall-matebook: uninstall-desktop
+	$(call uninstall, $(DEST_HOME), matebook, home)
+
 # headless
 .PHONY: headless
 headless: setup_common
