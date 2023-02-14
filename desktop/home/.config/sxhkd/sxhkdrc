@@ -105,6 +105,12 @@ super + ctrl + shift + space
 	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
 
 #
+# brightness
+#
+XF86MonBrightness{Up,Down}  
+  brightnessctl --min-value=1% s 5%{+,-} 
+
+#
 # move/resize
 #
 
