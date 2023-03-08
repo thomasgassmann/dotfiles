@@ -4,17 +4,18 @@ My personal dotfiles.
 
 ## Required packages
 
+- stow
 - zsh
 - zsh-completions
 - zsh-autosuggestions
 - zsh-syntax-highlighting
 - fzf
-- oh-my-zsh-git
-- (more to follow)
+- oh-my-zsh-git (AUR)
+- tmux
 
 ## Installation
 
-There are currently three targets: `raptor`, `nas` and `matebook`.
+There are currently two targets: `headless` and `desktop`.
 
 ### raptor
 
