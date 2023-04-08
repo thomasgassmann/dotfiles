@@ -2,6 +2,8 @@
 	email = thomas@gassmann.dev
 	name = Thomas Gassmann
 	signingkey = 0E7C183AED7F189A
+[includeIf "gitdir:~/git/eth/**"]
+	path = ~/.gitconfig.eth
 [alias]
     ll = log --date=short --format=format:'%C(auto)%h%C(reset) %C(cyan)%ad%C(reset) %C(green)(%ar)%C(reset)%C(auto)%d%C(reset) %s - %C(yellow)%an%C(reset)'
     l = !git ll --all --graph
