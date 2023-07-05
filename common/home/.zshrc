@@ -63,6 +63,8 @@ bindkey '^H' backward-kill-word
 alias gs='git status'
 alias gl='git l'
 alias gc='git commit -s -v'
+alias gd='git diff'
+alias gds='git diff --staged'
 
 # alias
 alias ls='ls --color=auto'
