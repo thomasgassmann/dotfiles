@@ -66,6 +66,8 @@ alias gc='git commit -s -v'
 alias gca='git commit --amend -s -v'
 alias gd='git diff'
 alias gds='git diff --staged'
+alias gp='git push'
+alias gpf='git push --force'
 
 # alias
 alias ls='ls --color=auto'
