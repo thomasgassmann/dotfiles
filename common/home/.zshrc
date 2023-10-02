@@ -68,6 +68,7 @@ alias gd='git diff'
 alias gds='git diff --staged'
 alias gp='git push'
 alias gpf='git push --force'
+alias gfe='git submodule foreach'
 
 # alias
 alias ls='ls --color=auto'

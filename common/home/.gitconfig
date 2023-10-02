@@ -22,3 +22,5 @@
 	rebase = false
 [color]
 	ui = auto
+[credential]
+	helper = cache
