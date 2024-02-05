@@ -25,11 +25,13 @@ setup_desktop:
 desktop: setup_desktop
 	$(call install_common)
 	$(call install, $(DEST_HOME), desktop, home)
+	./desktop/shortcuts/gsettings.pl --import ./desktop/shortcuts/shortcuts.csv
 
 .PHONY: uninstall-desktop
 uninstall-desktop:
 	$(call uninstall_common)
 	$(call uninstall, $(DEST_HOME), desktop, home)
+	./desktop/shortcuts/gsettings.pl --uninstall ./desktop/shortcuts/shortcuts.csv
 
 # headless
 .PHONY: headless
