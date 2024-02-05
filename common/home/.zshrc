@@ -79,4 +79,3 @@ alias la='ll -a'
 alias open=xdg-open
 alias copy='xclip -selection clipboard -i'
 alias todo='notify-send --icon=task-due -u low '
-alias eat='mensa-cli meals | less'
