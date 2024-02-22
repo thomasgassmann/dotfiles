@@ -12,6 +12,7 @@ My personal dotfiles.
 - fzf
 - oh-my-zsh-git (AUR)
 - tmux
+- git-delta
 
 ## Installation
 
