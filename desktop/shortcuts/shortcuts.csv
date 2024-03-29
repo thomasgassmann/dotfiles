@@ -5,3 +5,4 @@ custom	'play-prev'	'dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotif
 custom	'play-up'	'amixer set Master 5%+'	'<Shift><Alt>k'
 custom	'play-down'	'amixer set Master 5%-'	'<Shift><Alt>j'
 custom	'play-mute'	'amixer -D pulse set Master 1+ toggle'	'<Shift><Alt>m'
+custom	'play-mute'	'amixer -D pulse sset Capture toggle'	'<Shift><Alt>u'
