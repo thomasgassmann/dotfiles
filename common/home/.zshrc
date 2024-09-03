@@ -77,5 +77,5 @@ alias ll='ls -lG --color=auto --group-directories-first'
 alias l='ll -h'
 alias la='ll -a'
 alias open=xdg-open
-alias copy='xclip -selection clipboard -i'
+alias copy='wl-copy'
 alias todo='notify-send --icon=task-due -u low '
