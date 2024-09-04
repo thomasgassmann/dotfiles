@@ -35,6 +35,7 @@ export GOPATH=$HOME/go
 # update path
 export PATH=$PATH:$GOPATH/bin
 export PATH=$HOME/.local/bin:$PATH
+export PATH="$PATH:$HOME/.dotnet/tools"
 
 # go version manager
 [[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
@@ -63,7 +64,6 @@ _dotnet_zsh_complete() {
 }
 
 compdef _dotnet_zsh_complete dotnet
-
 
 # keybinding
 bindkey -v # vim
