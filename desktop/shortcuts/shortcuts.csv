@@ -7,3 +7,5 @@ custom	'play-down'	'pactl set-sink-volume @DEFAULT_SINK@ -5%'	'<Shift><Alt>j'
 custom	'play-mute'	'pactl set-sink-mute @DEFAULT_SINK@ toggle'	'<Shift><Alt>m'
 custom	'play-mute'	'pactl set-source-mute @DEFAULT_SOURCE@ toggle'	'<Shift><Alt>u'
 custom	'1p-quick'	'1password --quick-access'	'<Ctrl><Shift>space'
+org.gnome.desktop.wm.keybindings	move-to-workspace-left	['<Shift><Super>h']
+org.gnome.desktop.wm.keybindings	move-to-workspace-right	['<Shift><Super>l']
