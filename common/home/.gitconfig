@@ -27,7 +27,11 @@
 	helper = cache
 [diff]
 	algorithm = histogram
+	conflictstyle = diff3
 [interactive]
 	diffFilter = delta --color-only
 [merge]
 	conflictstyle = diff3
+[delta]
+	navigate = true
+	side-by-side = true
