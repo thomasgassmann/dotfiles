@@ -33,6 +33,21 @@ uninstall-desktop:
 	$(call uninstall, $(DEST_HOME), desktop, home)
 	./desktop/shortcuts/gsettings.pl --uninstall ./desktop/shortcuts/shortcuts.csv
 
+# zenbook
+.PHONY: zenbook
+zenbook: setup_desktop
+	$(call install_common)
+	$(call install, $(DEST_HOME), desktop, home)
+	$(call install, $(DEST_HOME), zenbook, home)
+	./desktop/shortcuts/gsettings.pl --import ./desktop/shortcuts/shortcuts.csv
+
+.PHONY: uninstall-zenbook
+uninstall-zenbook:
+	$(call uninstall_common)
+	$(call uninstall, $(DEST_HOME), desktop, home)
+	$(call uninstall, $(DEST_HOME), zenbook, home)
+	./desktop/shortcuts/gsettings.pl --uninstall ./desktop/shortcuts/shortcuts.csv
+
 # headless
 .PHONY: headless
 headless:

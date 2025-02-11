@@ -45,6 +45,7 @@ export PATH="$PATH:$HOME/.dotnet/tools"
 
 # local
 [[ -s "$HOME/.local.zshrc" ]] && source "$HOME/.local.zshrc"
+[[ -s "$HOME/.local.zenbook.zshrc" ]] && source "$HOME/.local.zenbook.zshrc"
 
 source $ZSH/oh-my-zsh.sh
 
