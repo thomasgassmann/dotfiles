@@ -9,3 +9,5 @@ custom	'play-mute'	'pactl set-source-mute @DEFAULT_SOURCE@ toggle'	'<Shift><Alt>
 custom	'1p-quick'	'1password --quick-access'	'<Ctrl><Shift>space'
 org.gnome.desktop.wm.keybindings	move-to-workspace-left	['<Shift><Super>h']
 org.gnome.desktop.wm.keybindings	move-to-workspace-right	['<Shift><Super>l']
+org.gnome.desktop.wm.keybindings	switch-to-workspace-left	['<Ctrl><Super>h']
+org.gnome.desktop.wm.keybindings	switch-to-workspace-right	['<Ctrl><Super>l']
