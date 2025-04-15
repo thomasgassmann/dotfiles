@@ -19,6 +19,7 @@ endef
 
 setup_desktop:
 	@mkdir -p $(DEST_HOME)/.sage
+	@mkdir -p $(DEST_HOME)/.config/discord
 
 # desktop
 .PHONY: desktop
