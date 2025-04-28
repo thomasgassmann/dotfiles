@@ -36,6 +36,7 @@ export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export PATH=$HOME/.local/bin:$PATH
 export PATH="$PATH:$HOME/.dotnet/tools"
+export PATH="$PATH:$HOME/.cargo/bin"
 
 # go version manager
 [[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"

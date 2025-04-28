@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Ghidra
+GenericName=Reverse Engineering Framework
+Comment=Ghidra is a software reverse engineering (SRE) framework
+Exec=ghidra
+Terminal=false
+Type=Application
+Icon=/opt/ghidra/docs/GhidraClass/Beginner/Images/GhidraLogo64.png
+Categories=Utilities
+StartupWMClass=ghidra-Ghidra
