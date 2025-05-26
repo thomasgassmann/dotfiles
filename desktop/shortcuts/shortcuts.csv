@@ -15,5 +15,3 @@ org.gnome.desktop.wm.keybindings	switch-windows	['<Alt>Tab']
 org.gnome.desktop.wm.keybindings	switch-windows-backward	['<Shift><Alt>Tab']
 org.gnome.desktop.wm.keybindings	switch-applications	['<Super>Tab']
 org.gnome.desktop.wm.keybindings	switch-applications-backward	['<Shift><Super>Tab']
-
-

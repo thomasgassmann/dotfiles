@@ -15,6 +15,10 @@ My personal dotfiles.
 - wl-clipboard
 - git-delta
 
+## zsh plugins
+
+Also install [zsh-github-copilot](https://github.com/loiccoyle/zsh-github-copilot) as described in the `oh-my-zsh` section.
+
 ## Installation
 
 There are currently two targets: `headless` and `desktop`.

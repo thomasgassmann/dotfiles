@@ -7,7 +7,7 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
     mkdir $ZSH_CACHE_DIR
 fi
 
-plugins=(git)
+plugins=(git zsh-github-copilot)
 
 # do nothing if not running interactively
 [[ $- != *i* ]] && return
@@ -70,6 +70,10 @@ compdef _dotnet_zsh_complete dotnet
 # keybinding
 bindkey -v # vim
 bindkey '^H' backward-kill-word
+
+# keybindings for github copilot
+bindkey '^P' zsh_gh_copilot_explain
+bindkey '^O' zsh_gh_copilot_suggest
 
 # use fzf for reverse search
 [[ -s "/usr/share/fzf/key-bindings.zsh" ]] && source "/usr/share/fzf/key-bindings.zsh"
