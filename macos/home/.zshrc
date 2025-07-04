@@ -87,3 +87,5 @@ alias l='ll -h'
 alias la='ll -a'
 alias open='open'
 alias copy='pbcopy'
+
+if [ "$TMUX" = "" ] && [ -s $(which tmux) ]; then exec tmux; fi

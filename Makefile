@@ -61,6 +61,7 @@ uninstall-headless:
 # mac OS
 .PHONY: macos
 macos:
+	rm -rf $(DEST_HOME)/.zshrc
 	$(call install_common)
 	rm -rf $(DEST_HOME)/.zshrc
 	$(call install, $(DEST_HOME), macos, home)
