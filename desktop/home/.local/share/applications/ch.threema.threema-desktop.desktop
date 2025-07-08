@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Threema Beta
+Icon=ch.threema.threema-desktop
+Exec=/usr/bin/threema-beta
+StartupWMClass=Threema
+Categories=Network;InstantMessaging;Chat;
+Keywords=encryption;threema;privacy;chat;communications;
