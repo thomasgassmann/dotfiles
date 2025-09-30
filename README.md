@@ -14,10 +14,11 @@ My personal dotfiles.
 - tmux
 - wl-clipboard
 - git-delta
+- github-cli
 
 ## zsh plugins
 
-Also install [zsh-github-copilot](https://github.com/loiccoyle/zsh-github-copilot) as described in the `oh-my-zsh` section.
+Also install [zsh-github-copilot](https://github.com/loiccoyle/zsh-github-copilot) as described in the `oh-my-zsh` section (`gh extension install github/gh-copilot`).
 
 ## Installation
 
