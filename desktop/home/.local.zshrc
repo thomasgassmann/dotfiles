@@ -1,1 +1,1 @@
-if [ "$TMUX" = "" ] && [ -s $(which tmux) ]; then exec tmux; fi
+if [ "$TMUX" = "" ] && [ -s $(which tmux) ] && [ "$TERM_PROGRAM" != "vscode" ]; then exec tmux; fi
