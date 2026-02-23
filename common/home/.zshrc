@@ -7,7 +7,7 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
     mkdir $ZSH_CACHE_DIR
 fi
 
-plugins=(git zsh-github-copilot)
+plugins=(git)
 
 # do nothing if not running interactively
 [[ $- != *i* ]] && return
@@ -49,6 +49,7 @@ export PATH="$PATH:$HOME/.cargo/bin"
 [[ -s "$HOME/.local.zenbook.zshrc" ]] && source "$HOME/.local.zenbook.zshrc"
 
 source $ZSH/oh-my-zsh.sh
+[[ -s "$HOME/.zsh/llm-completions.zsh" ]] && source "$HOME/.zsh/llm-completions.zsh"
 
 # dotnet auto-complete
 _dotnet_zsh_complete() {
@@ -70,10 +71,7 @@ compdef _dotnet_zsh_complete dotnet
 # keybinding
 bindkey -v # vim
 bindkey '^H' backward-kill-word
-
-# keybindings for github copilot
-bindkey '^P' zsh_gh_copilot_explain
-bindkey '^O' zsh_gh_copilot_suggest
+bindkey '^O' zsh_suggest
 
 # use fzf for reverse search
 [[ -s "/usr/share/fzf/key-bindings.zsh" ]] && source "/usr/share/fzf/key-bindings.zsh"
@@ -103,3 +101,10 @@ alias la='ll -a'
 alias open=xdg-open
 alias copy='wl-copy'
 alias todo='notify-send --icon=task-due -u low '
+
+export PATH="$PATH:/home/thomas/.risc0/bin"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/thomas/.lmstudio/bin"
+# End of LM Studio CLI section
+
