@@ -16,6 +16,7 @@ My personal dotfiles.
 - git-delta
 - github-cli
 - ghostty
+- serie
 
 ## zsh plugins
 

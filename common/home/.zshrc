@@ -84,6 +84,7 @@ bindkey '^O' zsh_suggest
 # git aliases
 alias gs='git status'
 alias gl='git l'
+alias gll='serie'
 alias gc='git commit -s -v'
 alias gca='git commit --amend -s -v'
 alias gd='git diff'
