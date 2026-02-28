@@ -15,6 +15,7 @@ My personal dotfiles.
 - wl-clipboard
 - git-delta
 - github-cli
+- ghostty
 
 ## zsh plugins
 
