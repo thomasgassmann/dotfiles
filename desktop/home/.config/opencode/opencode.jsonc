@@ -14,6 +14,7 @@
     "list": "allow",
     "codesearch": "allow",
     "todoread": "allow",
-    "todowrite": "allow"
+    "todowrite": "allow",
+    "grep": "allow"
   }
 }
