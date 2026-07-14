@@ -93,11 +93,13 @@ alias gp='git push'
 alias gpf='git push --force'
 alias gfe='git submodule foreach'
 alias grhh='git reset --hard HEAD'
+alias grph='git rev-parse HEAD'
 
 # docker aliases
 alias dsa='docker stop $(docker ps -a -q)'
 alias dra='docker rm $(docker ps -a -q)'
 alias drf='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)'
+alias dps='docker ps'
 
 # alias
 alias ls='ls --color=auto'
