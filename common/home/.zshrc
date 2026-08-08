@@ -102,6 +102,7 @@ alias drf='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)'
 alias dps='docker ps'
 
 # alias
+alias lg='lazygit'
 alias ls='ls --color=auto'
 alias ll='ls -lG --color=auto --group-directories-first'
 alias l='ll -h'
