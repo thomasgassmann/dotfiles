@@ -114,6 +114,7 @@ alias la='ll -a'
 alias open=xdg-open
 alias copy='wl-copy'
 alias todo='notify-send --icon=task-due -u low '
+alias cinema='asciinema'
 
 export PATH="$PATH:/home/thomas/.risc0/bin"
 
