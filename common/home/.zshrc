@@ -68,6 +68,10 @@ _dotnet_zsh_complete() {
 
 compdef _dotnet_zsh_complete dotnet
 
+# kubectl
+alias k=kubectl
+[[ $commands[kubectl] ]] && source <(kubectl completion zsh)
+
 # keybinding
 bindkey -v # vim
 bindkey '^H' backward-kill-word
