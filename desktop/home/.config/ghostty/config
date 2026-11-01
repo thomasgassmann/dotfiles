@@ -2,3 +2,13 @@ keybind = ctrl+shift+h=goto_split:left
 keybind = ctrl+shift+l=goto_split:right
 keybind = ctrl+shift+k=goto_split:top
 keybind = ctrl+shift+j=goto_split:bottom
+
+# Use Simplified Chinese glyphs for Han characters (fontconfig fallback picks JP/KR).
+# see https://en.wikipedia.org/wiki/Han_unification
+font-codepoint-map = U+4E00-U+9FFF=Noto Sans CJK SC
+font-codepoint-map = U+3400-U+4DBF=Noto Sans CJK SC
+font-codepoint-map = U+F900-U+FAFF=Noto Sans CJK SC
+font-codepoint-map = U+20000-U+2A6DF=Noto Sans CJK SC
+
+# Let Nautilus open the requested directory in a new Ghostty window.
+gtk-single-instance = false
